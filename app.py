@@ -17,9 +17,10 @@ logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
+
 # API Keys (Replace with your actual API keys)
-GOOGLE_API_KEY = "AIzaSyBIpn7wZdStKbfe2KXKTDF3bdoCIAqZtaY"
-WEATHER_API_KEY = "166db055dd5462eeee0a93c1b70b7f43"
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+WEATHER_API_KEY == os.getenv("WEATHER_API_KEY")
 
 
 print("GOOGLE_API_KEY:", GOOGLE_API_KEY)  # Should print the actual key
