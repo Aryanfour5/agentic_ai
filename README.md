@@ -57,8 +57,6 @@ streamlit run app.py
 🔹 **More Crop Support** - Expanding farming advice to additional crops.  
 🔹 **User Profiles** - Storing past queries for personalized recommendations.
 
-## Screenshots
-🚀 *Add screenshots of your UI here to make it visually appealing!*
 
 ## Contributing
 Contributions are welcome! Feel free to fork this repo and submit pull requests.
